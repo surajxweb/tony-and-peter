@@ -1,0 +1,96 @@
+/* Footer.module.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.footer {
+  background-color: #1e1e1e;
+  color: white;
+  padding: 30px 30px 5px 30px;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.info {
+  font-family: 'Tsukimi Rounded', sans-serif;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.image img {
+  max-width: 100%;
+}
+
+.about {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+.text {
+  font-family: 'Gochi Hand', cursive;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.socials {
+  display: flex;
+}
+
+.socialIcon {
+  margin: 20px 20px 20px 0;
+  transition: transform .2s;
+}
+
+.socialIcon:hover {
+  transform: translate(0px, -6px);
+}
+
+.newsletter button {
+  background-color: transparent;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.newsletter button:hover {
+  background-color: white;
+  color: #1e1e1e;
+}
+
+.credits {
+  margin-top: 10px;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 768px) {
+  .info {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about {
+    width: 100%;
+  }
+
+  .text {
+    font-size: 20px;
+  }
+
+  .socials {
+    justify-content: center;
+  }
+
+  .newsletter {
+    text-align: center;
+    margin-top: 20px;
+  }
+}

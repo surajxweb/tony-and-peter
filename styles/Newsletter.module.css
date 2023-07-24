@@ -1,0 +1,64 @@
+/* Newsletter.module.css */
+
+.main {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    width: 70%;
+    margin: 30px auto;
+    padding: 20px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .image,
+  .text,
+  .form {
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  /* Responsive styles for screens between 1350px and 768px */
+  @media screen and (max-width: 1350px) {
+    .main {
+      width: 80%;
+      padding: 15px;
+    }
+  
+    .image img {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+    }
+  
+    .text {
+      text-align: center;
+    }
+  
+    .form {
+      width: 100%;
+    }
+  }
+  
+  /* Responsive styles for smaller screens (max-width: 768px) */
+  @media screen and (max-width: 768px) {
+    .main {
+      width: 90%;
+      padding: 10px;
+    }
+  
+    .image img {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+    }
+  
+    .text {
+      text-align: center;
+    }
+  
+    .form {
+      width: 100%;
+    }
+  }
+  

@@ -1,0 +1,28 @@
+
+.list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+
+}
+
+
+.list a {
+    
+    text-decoration: none;
+}
+
+.heading {
+    font-size: 25px;
+    margin-left: 30px;
+
+}
+
+@media screen and (max-width: 768px) {
+    .heading {
+        text-align: center;
+        font-size: 20px;
+        margin-right: 40px;
+    
+    }
+  }

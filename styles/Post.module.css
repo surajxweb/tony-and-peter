@@ -1,0 +1,33 @@
+/* BlogPost.module.css */
+
+.blog-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .blog-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .blog-description {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .blog-content {
+    line-height: 1.6;
+    font-size: 16px;
+  }
+  
+  .blog-content img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+  }
+  
+  /* Additional styles for author info, cover photo, etc. can be added here */
+  

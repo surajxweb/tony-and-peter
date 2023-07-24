@@ -1,0 +1,29 @@
+/* ErrorPage.module.css */
+
+  
+  .image-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+  }
+  
+  .error-message {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .error-message a {
+    color: blue;
+    text-decoration: underline;
+  }
+  
+  .error-message a:hover {
+    color: darkblue;
+  }
+  
+  /* Additional styles for Navbar and Footer components can be added here */
+  
