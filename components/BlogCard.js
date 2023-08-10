@@ -12,18 +12,13 @@ export default function BlogCard({ imgurl, title, author, avatar, slug }) {
 
   const formattedDate = `${month} ${day}, ${year}`;
 
-  const authorImageStyle = {
-    borderRadius: "14px",
-    border: "2px solid #DB005B;",
-  };
-
   return (
     <Link href={`/posts/${slug}`}>
       <div className={styles.blogcard}>
         <div className={styles.image}>
           <Image
             src={imgurl}
-            width={400}
+            width={444.44}
             height={250}
             alt="Picture of the cover"
           />
@@ -36,7 +31,6 @@ export default function BlogCard({ imgurl, title, author, avatar, slug }) {
               width={28}
               height={28}
               alt="Picture of the author"
-              style={authorImageStyle}
             />
             <div className={styles.authorname}>{author}</div>
           </div>

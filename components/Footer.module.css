@@ -1,7 +1,5 @@
 /* Footer.module.css */
 
-@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 .footer {
   background-color: #1e1e1e;
@@ -11,8 +9,8 @@
   flex-flow: column wrap;
 }
 
+
 .info {
-  font-family: 'Tsukimi Rounded', sans-serif;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -23,6 +21,7 @@
 }
 
 .about {
+  margin: 20px;
   width: 600px;
   display: flex;
   flex-direction: column;

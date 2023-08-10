@@ -17,6 +17,56 @@
     margin: 10px;
     padding: 10px;
   }
+
+
+   /* Contact Form Styles */
+
+  
+.contactForm {
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.contactForm label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.contactForm input {
+  width: 100%;
+  padding: 8px;
+  margin: 15px 0;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-family: inherit;
+}
+
+.ctabutton {
+  background-color: #b70404;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.ctabutton:hover {
+  background-color: #640505;
+}
+
+.responsemess {
+  margin-top: 15px;
+  color: #b70404;
+  font-weight: bold;
+}
+
+
+
+
   
   /* Responsive styles for screens between 1350px and 768px */
   @media screen and (max-width: 1350px) {
@@ -35,7 +85,7 @@
       text-align: center;
     }
   
-    .form {
+    .contactForm {
       width: 100%;
     }
   }
@@ -57,8 +107,11 @@
       text-align: center;
     }
   
-    .form {
+    .contactForm {
       width: 100%;
     }
   }
   
+
+ 
+

@@ -1,0 +1,51 @@
+.container {
+    margin: 40px ;
+    width: 400px;
+    padding: 30px 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 15px;
+}
+
+.heading {
+    font-size: 15px;
+}
+
+.lists {
+    margin: 15px 0;
+}
+
+.lists a {
+    color: #b70404;
+    
+    text-decoration: none;
+}
+
+.lists a:hover {
+    color: #ff0000;
+}
+
+.list{
+    margin: 30px 10px;
+}
+
+.title {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    margin-bottom: 5px;
+}
+
+@media screen and (max-width: 768px) {
+.container {
+    width: 90%;
+
+    margin: 20px auto;
+}
+}
+
+@media (max-width: 1250px) and (min-width: 769px) {
+    .container {
+      width: 90%;
+    }
+
+    
+  }

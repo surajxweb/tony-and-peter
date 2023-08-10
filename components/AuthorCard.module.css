@@ -1,0 +1,67 @@
+.cardContainer {
+    padding-top: 40px;
+    margin-top: 40px;
+    border-top: 3px dashed #8c8c8c;
+    line-height: 1.6;
+
+}
+
+.card {
+    margin: 20px auto;
+    padding: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-top:1px solid #ccc ;
+    
+}
+
+
+
+.imageContainer img {
+    border-radius: 75px;
+    border: 2px solid #DB005B;
+}
+
+.info {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    width: 70%;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bio {
+    font-size: 16px;
+}
+
+.links {
+    margin-top: 10px;
+}
+
+.icons {
+    margin-right: 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+        .card {
+        padding: 10px;
+        display: block;
+    }
+
+    .info {
+        margin: 0;
+        width: 100%;
+
+    };
+
+    .name {
+        margin: 10px 0;
+    }
+}

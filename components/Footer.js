@@ -38,7 +38,6 @@ const Footer = () => {
         </div>
       </div>
       <div className={styles.credits}>
-        <div>Made with 💝 by Suraj Katyayan</div>{" "}
         <div>Copyright © 2023 Asad Khan / Suraj Katyayan</div>
       </div>
     </div>

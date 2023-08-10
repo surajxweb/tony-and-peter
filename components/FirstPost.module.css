@@ -28,7 +28,8 @@
   }
   
   .image img {
-    max-width: 100%;
+    margin-top: 20px;
+    border-radius: 10px;
   }
   
   .image:hover {
@@ -48,6 +49,7 @@
     margin: 10px;
     font-weight: bold;
     color: rgb(37, 35, 35);
+    font-family: 'Archivo Black', sans-serif;
   }
   
   .description {
@@ -63,6 +65,13 @@
     font: inherit;
     margin: 10px;
     padding: 5px;
+    background-color: #b70404;;
+    border: 1px solid #640505;
+    color: white;
+  }
+
+  .button:hover {
+    background-color: #640505;
   }
   
   /* Responsive styles for smaller screens */
@@ -71,13 +80,18 @@
       flex-direction: column;
       align-items: center;
     }
+
+    .image:hover {
+      transform: translate(0px, 0px);
+    }
   
     .info {
       max-width: 100%; /* Remove the max-width to allow full width on smaller screens */
     }
   
     .image {
-      max-width: 100%; /* Remove the max-width to allow full width on smaller screens */
+      max-width: 100%;
+      margin: 15px 0; /* Remove the max-width to allow full width on smaller screens */
     }
   
     .category {

@@ -38,6 +38,7 @@
     font-weight: bold;
     padding: 10px;
     text-align: center;
+    
   }
   
   .info {
@@ -56,6 +57,12 @@
     align-items: center;
     justify-content: space-around;
   }
+
+  .author img {
+    border-radius: 75px;
+    border: 2px solid #DB005B;
+}
+
   
   .authorname {
     margin-left: 10px;
@@ -69,6 +76,13 @@
       flex-direction: column;
       margin: 20px auto;
     border-radius: 0px;
+    box-shadow:none;
+    border-bottom: 1px solid #ccc;
+    }
+
+    .blogcard:hover {
+      transform: translate(0px, 0px);
+      box-shadow:none;
     }
   
     .info {
