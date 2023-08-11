@@ -3,7 +3,7 @@ import Image from "next/image";
 import styles from "./AuthorCard.module.css";
 import { AiFillInstagram } from "react-icons/ai";
 import { AiFillTwitterCircle } from "react-icons/ai";
-import { TbWorldWww } from "react-icons/ai";
+import { TbWorldWww } from "react-icons/tb";
 
 export default function AuthorCard({
   name,
@@ -25,7 +25,7 @@ export default function AuthorCard({
           <div className={styles.bio}>{bio}</div>
           <div className={styles.links}>
             {instagram && (
-              <Link href={instagram}>
+              <Link href={instagram} target="_blank" rel="noopener noreferrer">
                 <AiFillInstagram
                   className={styles.icons}
                   color="#111"
@@ -34,7 +34,7 @@ export default function AuthorCard({
               </Link>
             )}
             {twitter && (
-              <Link href={twitter}>
+              <Link href={twitter} target="_blank" rel="noopener noreferrer">
                 <AiFillTwitterCircle
                   className={styles.icons}
                   color="#111"
@@ -43,7 +43,7 @@ export default function AuthorCard({
               </Link>
             )}
             {website && (
-              <Link href={website}>
+              <Link href={website} target="_blank" rel="noopener noreferrer">
                 <TbWorldWww
                   className={styles.icons}
                   color="#111"

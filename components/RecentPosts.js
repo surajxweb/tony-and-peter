@@ -1,6 +1,5 @@
 import Link from "next/link";
 import styles from "./RecentPosts.module.css";
-import { FcCalendar } from "react-icons/fc";
 
 export default function RecentPosts({ posts }) {
   return (

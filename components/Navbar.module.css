@@ -87,7 +87,7 @@
     
     .mobilelinks {
         background-color: #ffff;
-        color: #ccc;
+        color: #ffff;
         position: absolute;
         width: 100%;
         display: flex;
@@ -98,12 +98,12 @@
     }
 
     .mobilelink {
-        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-        border: 1px solid #111;
+        box-shadow: rgba(100, 40, 40, 0.35) 0px 5px 15px;
+        border: 1px solid #f70404;
         text-align: center;
         padding: 10px;
         margin: 2px auto;
-        background-color: #222;
+        background-color: #b70404;
         width: 70%;
         margin-bottom: 40px;
     }
