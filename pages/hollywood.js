@@ -103,7 +103,7 @@ export async function getStaticProps() {
   const endpoint = process.env.GRAPHQL_ENDPOINT; // Replace this with your actual GraphQL API endpoint
   const query = gql`
     query Marvel {
-      posts(where: { category: "Hollywood" }) {
+      posts(where: { category: "Hollywood" }, orderBy: createdAt_DESC) {
         id
         title
         slug
